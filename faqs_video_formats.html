@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<!--
+    Jessica J. Hernandez
+    Full Sail University
+    Rich Media Optimization
+    201511-01 Online
+    Week 4 Assignment: Final Project
+-->
+
+<html>
+    
+<head>
+    <title>Bird Watcher's Network</title>
+    
+    <!--Include CSS Files-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/mediaelement/mediaelementplayer.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-lg-5">
+                <img src="images/bwn_logo.png" alt="Bird Watcher's Network Logo" title="Bird Watcher's Network Logo" />
+                <a href="index.html"><h1>Bird Watcher's Network</h1></a>
+            </div>
+            
+            <div class="col-lg-7 nav">
+                <a href="index.html" class="button">Home</a>
+                <a href="#" class="button">About</a>
+                <a href="index.html" class="button">Video Gallery</a>
+                <a href="faqs_video_formats.html" class="button active">FAQs</a>
+                <a href="#" class="button">Contact</a>
+            </div>
+        </div>
+    </header>
+    
+    <div id="container">
+        <h2>Frequently Asked Questions</h2>
+        
+        <hr class="hr1"/>
+        
+        <div id="innerContainer">
+            
+            <div class="row">
+                <div class="col-lg-1">
+                    <p class="q">Q</p>
+                </div>
+                
+                <div class="col-lg-11">
+                    <p class="question">What is the difference between video/audio formats?</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                    <div class="col-lg-1">
+                        <p class="a">A</p>
+                    </div>
+
+                    <div class="col-lg-11">
+                        <p class="answer">On our site we have 5 different formats that we use interexchangbly and 4 formats are available for your to download. Please see descriptions below:</p>
+
+                        <ul id="listAnswers">
+                            <li><span class="liItem">.Mp4</span>
+                                <ul><li>Mp4 is a container format and its abbreviation stands for MPEG-4. This type of container format allows you to add a combination of video, audio, subtitles and still images to it’s one single file. The Mp4 video file has been around since 1998 and to this day it’s still one of the most used video file formats to use on the web. Since this could be considered a legacy video format, Mp4 is still able to be used with older versions of internet browsers (i.e. Internet Explorer). By using a flash fallback, the Mp4 file can be used inside of flash to therefore display the video on an older browser. Versatility is one of the bonuses you get by using a Mp4 file type.
+</li></ul>
+                            </li>
+                                
+                            <li><span class="liItem">.Ogv</span>
+                                <ul><li>Ogv is an open sourced bit stream container. This file type was created by the Xiph.org Foundation. Ogv’s have two components to them within their codecs. The Theora codec handles the video portion or an Ogv file, while the Vorbis codec handles the audio portion. Aside from video and audio, it can also support subtitles. In a whole, this is a lossy video compression format and was created for streaming and manipulation. Ogv file formats are typically used in the Firefox or Opera web browsers, but it is also capable of being used on the Google Chrome browser as well.  
+</li></ul>
+                            </li>
+                                
+                            <li><span class="liItem">.WebM</span>
+                                <ul><li>WebM began as an open web media project and it is entirely royalty free format to use by anyone in combination with the HTML5 video tag. WebM is a fairly new video format that was created in 2010 and based off of the Matroska media container. It consists of a VP8 or VP9 video codec and a Vorbis or Opus audio format. WebM can also support WebVTT text titles. Avoiding patent issues is one of the reasons why WebM was created. This format is supported by the newer versions of the top browsers (i.e. Chrome and Firefox). WebM is also very useful for the Android, iOS and Windows Mobile web browsers. 
+</li></ul>
+                            </li>
+                                
+                            <li><span class="liItem">.Mp3</span>
+                                <ul><li>Mp3 format is a pure audio format. Mp3 is the short name for either MPEG-1 or MPEG-2 Audio Layer III. This format was created in 1993 and it’s a form of lossy data compression. Therefore, the audio on a CD will sound better because it’s an original but the Mp3 is used in order to compress the data and would can notice some subtle differences between the original and the Mp3 format. To this day Mp3 is still once of the most popular digital audio formats. It runs on the MPEG audio codec and it used for streaming or storing audio in general. 
+</li></ul>
+                            </li>
+                                
+                            <li><span class="liItem">.SWF</span>
+                                <ul><li>SWF, also known as a Small Web Format or ShockWave Flash, has been passed down through various companies. SWF was first created by FutureWave Software and it was designed to be able to handle animations, vector graphics, applets, web games and multimedia in general. Later on Macromedia acquired the format and much after that, was acquired yet again by Adobe. SWF is essentially a flash file. Using flash content was an alternative to be able to load multimedia content onto an older browser or slower connections. To this day we are still using flash fallbacks for those who don’t not have the most updated current browser but it’s beginning to get phased out on the newer browsers due to recent discoveries of security risks on the user’s end. 
+</li></ul>
+                            </li>
+                                
+                        </ul>
+                    </div>
+                </div>
+                
+                <hr class="hr2"/>
+        </div>
+        
+    </div>
+    
+    <p id="footer">© 2015 Bird Watcher's Network</p>
+    
+    <!--jQuery-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    <!--Bootstrap-->
+    <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+    
+    <!--Media Element-->
+    <script src="js/mediaelement/me-namespace.js" type="text/javascript"></script>
+	<script src="js/mediaelement/me-utility.js" type="text/javascript"></script>
+	<script src="js/mediaelement/me-i18n.js" type="text/javascript"></script>
+	<script src="js/mediaelement/me-plugindetector.js" type="text/javascript"></script>
+	<script src="js/mediaelement/me-featuredetection.js" type="text/javascript"></script>
+	<script src="js/mediaelement/me-mediaelements.js" type="text/javascript"></script>
+	<script src="js/mediaelement/me-shim.js" type="text/javascript"></script>
+	
+	<script src="js/mediaelement/mep-library.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-player.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-feature-playpause.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-feature-progress.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-feature-time.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-feature-volume.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-feature-stop.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-feature-fullscreen.js" type="text/javascript"></script>
+    
+    <!--Main-->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+    
+</html>

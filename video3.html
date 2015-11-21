@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<!--
+    Jessica J. Hernandez
+    Full Sail University
+    Rich Media Optimization
+    201511-01 Online
+    Week 4 Assignment: Final Project
+-->
+
+<html>
+    
+<head>
+    <title>Bird Watcher's Network</title>
+    
+    <!--Include CSS Files-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/mediaelement/mediaelementplayer.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-lg-5">
+                <img src="images/bwn_logo.png" alt="Bird Watcher's Network Logo" title="Bird Watcher's Network Logo" />
+                <a href="index.html"><h1>Bird Watcher's Network</h1></a>
+            </div>
+            
+            <div class="col-lg-7 nav">
+                <a href="index.html" class="button">Home</a>
+                <a href="#" class="button">About</a>
+                <a href="index.html" class="button active">Video Gallery</a>
+                <a href="faqs_video_formats.html" class="button">FAQs</a>
+                <a href="#" class="button">Contact</a>
+            </div>
+        </div>
+    </header>
+    
+    <div id="container">
+        <h2>Video Gallery</h2>
+        
+        <hr class="hr1"/>
+        
+        <div class="row">
+            <div class="col-lg-4 leftSide">
+                <h3>Playlist</h3>
+                
+                <div class="row">
+                    <div class="col-lg-8 left">
+                        <a href="index.html"><img src="images/video_still_video1_1.jpg" alt="Black Birds by the Water Video Preview" title="Black Birds by the Water Video Preview"/></a>
+                    </div>
+
+                    <div class="col-lg-4 right">
+                        <a href="index.html"><img src="images/video_still_video1_2.jpg" alt="Black Birds by the Water Video Preview" title="Black Birds by the Water Video Preview"/></a>
+                        <a href="index.html"><img src="images/video_still_video1_3.jpg" alt="Black Birds by the Water Video Preview" title="Black Birds by the Water Video Preview"/></a>
+                    </div>
+                </div>
+                
+                <p class="vidTitle">Black Birds by the Water</p>
+                
+                <hr class="hr2">
+                
+                <div class="row">
+                    <div class="col-lg-4 left">
+                        <a href="video2.html"><img src="images/video_still_video2_2.jpg" alt="Birds on Feeders Video Preview" title="Birds on Feeders Video Preview"/></a>
+                        <a href="video2.html"><img src="images/video_still_video2_3.jpg" alt="Birds on Feeders Video Preview" title="Birds on Feeders Video Preview"/></a>
+                    </div>
+                    
+                    <div class="col-lg-8 right">
+                        <a href="video2.html"><img src="images/video_still_video2_1.jpg" alt="Birds on Feeders Video Preview" title="Birds on Feeders Video Preview"/></a>
+                    </div>
+                </div>
+                
+                <p class="vidTitle">Birds on Feeders</p>
+                
+                <hr class="hr2">
+                
+                <div class="row">
+                    <div class="col-lg-8 left">
+                        <a href="video3.html"><img src="images/video_still_video3_1.jpg" alt="Birds on Beach Video Preview" title="Birds on Beach Video Preview"/></a>
+                    </div>
+
+                    <div class="col-lg-4 right">
+                        <a href="video3.html"><img src="images/video_still_video3_2.jpg" alt="Birds on Beach Video Preview" title="Birds on Beach Video Preview"/></a>
+                        <a href="video3.html"><img src="images/video_still_video3_3.jpg" alt="Birds on Beach Video Preview" title="Birds on Beach Video Preview"/></a>
+                    </div>
+                </div>
+                
+                <p class="vidTitle">Birds on Beach</p>
+                
+            </div>
+            
+            <div class="col-lg-8 rightSide">
+                <h3>NOW PLAYING: Birds on Beach</h3>
+                
+                <video width="100%" height="100%" poster="images/video3_preview.jpg" controls="controls" preload>
+                    <!-- MP4 source must come first for iOS -->
+                    <source type="video/mp4" src="videos/mp4/birds_on_beach.mp4" />
+                    
+                    <!-- WebM for Firefox 4 and Opera -->
+                    <source type="video/webm" src="videos/webm/birds_on_beach.webm" />
+                    
+                    <!-- OGG for Firefox 3 -->
+                    <source type="video/ogg" src="videos/ogg/birds_on_beach.ogv" />
+                    
+                    <!-- Fallback flash player for no-HTML5 browsers with JavaScript turned off -->
+                    <object width="100%" type="application/x-shockwave-flash" data="videos/swf/birds_on_beach.swf"> 		
+                        <param name="movie" value="videos/swf/birds_on_beach.swf" /> 
+                        <param name="flashvars" value="controls=true&amp;file=videos/mp4/birds_on_beach.mp4" /> 		
+                        <!-- Image fall back for non-HTML5 browser with JavaScript turned off and no Flash player installed -->
+                        <img src="images/video3_preview.jpg" width="100%" alt="Black Birds by the Water" 
+                            title="No video playback capabilities" />
+                    </object> 	
+                </video>
+                
+                <div class="row videoItems">
+                    <div class="col-lg-6 videoDetails">
+                        <p>Author: <a class="author" href="http://www.videezy.com/members/nothingtypical" target="_blank">NothingTypical</a></p>
+                    </div>
+                    
+                    <div class="col-lg-6">
+                        <p>Full Video Length: 0:38</p>
+                    </div>
+                </div>
+                
+                <br/>
+                
+                <div class=" downloads">
+                    <h4>Available downlods for this video:</h4>
+
+
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <p class="fileDesc"><br/>File Size:<br/>Codec:<br/>Resolution:</p>
+                        </div>
+
+                        <div class="col-lg-10">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <p><a href="videos/mp4/birds_on_beach.mp4" target="_blank">.Mp4</a><br/>49.4 MB<br/>H264<br/>1990 x 1080</p>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <p><a href="videos/ogg/birds_on_beach.ogv" target="_blank">.Ogv</a><br/>23.6 MB<br/>Theora<br/>1440 x 1080</p>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <p><a href="videos/webm/birds_on_beach.webm" target="_blank">.WebM</a><br/>35.1 MB<br/>Google VP8<br/>1440 x 1080</p>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <p><a href="audio/mp3/birds_on_beach.mp3" target="_blank">.Mp3</a><br/>617 KB<br/>MPEG Audio<br/> - </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 id="tip">Tip: Right click desired file type and choose to save it</h4>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <p id="footer">© 2015 Bird Watcher's Network</p>
+    
+    <!--jQuery-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    <!--Bootstrap-->
+    <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+    
+    <!--Media Element-->
+    <script src="js/mediaelement/me-namespace.js" type="text/javascript"></script>
+	<script src="js/mediaelement/me-utility.js" type="text/javascript"></script>
+	<script src="js/mediaelement/me-i18n.js" type="text/javascript"></script>
+	<script src="js/mediaelement/me-plugindetector.js" type="text/javascript"></script>
+	<script src="js/mediaelement/me-featuredetection.js" type="text/javascript"></script>
+	<script src="js/mediaelement/me-mediaelements.js" type="text/javascript"></script>
+	<script src="js/mediaelement/me-shim.js" type="text/javascript"></script>
+	
+	<script src="js/mediaelement/mep-library.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-player.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-feature-playpause.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-feature-progress.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-feature-time.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-feature-volume.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-feature-stop.js" type="text/javascript"></script>
+	<script src="js/mediaelement/mep-feature-fullscreen.js" type="text/javascript"></script>
+    
+    <!--Main-->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+    
+</html>

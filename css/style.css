@@ -1,0 +1,235 @@
+/*
+    Jessica J. Hernandez
+    Full Sail University
+    Rich Media Optimization
+    201511-01 Online
+    Week 4 Assignment: Final Project
+*/
+
+/* ------------------------------ */
+/*			MAIN STYLES			  */
+/* ------------------------------ */
+
+body {
+    background-color: #215c32;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #effef8;
+    border-bottom: 2px solid #cbea6b;
+    padding: 10px 10px 10px 0;
+}
+
+#container {
+    background-color: white;
+    margin: 30px auto;
+    width: 90%;
+    padding: 20px;
+}
+
+.hr1 {
+    border: 0;
+    height: 1px;
+    background: #80e9ea;
+    background-image: linear-gradient(to right, #e5fbfb, #80e9ea, #e5fbfb);
+}
+
+.hr2 {
+    border: 0;
+    height: 1px;
+    background: #f77ab8;
+    background-image: linear-gradient(to right, #fbebf3, #f77ab8, #fbebf3);
+}
+
+#innerContainer {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+.leftSide .col-lg-8, .leftSide .col-lg-4  {
+    padding: 0;
+}
+
+.leftSide .col-lg-8.left {
+    padding-right: 5px
+}
+
+.leftSide .col-lg-4.right {
+    padding-left: 5px
+}
+
+.leftSide .col-lg-4 img:nth-child(1) {
+    padding-bottom: 5px;
+}
+
+.leftSide .col-lg-8.right {
+    padding-left: 5px
+}
+
+.leftSide .col-lg-4.left {
+    padding-right: 5px
+}
+
+.downloads .col-lg-10 {
+    padding: 0;
+}
+
+
+
+/* ------------------------------ */
+/*			NAVIGATION			  */
+/* ------------------------------ */
+
+.col-lg-7.nav {
+    padding-top: 30px;
+    vertical-align: middle;
+}
+
+
+
+/* ------------------------------ */
+/*		  HEADINGS & TEXT		  */
+/* ------------------------------ */
+
+h1, h2 {
+    color: #e12280;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h2, h3, h4 {
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#footer {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.leftSide h3 {
+    color: #066f24;
+}
+
+.rightSide h3, .videoItems {
+    color: #0562c0;
+}
+
+.author {
+    font-style: italic;
+}
+
+.nav, .vidTitle:nth-child(2n),
+.videoItems .col-lg-6:nth-child(2n) p {
+    text-align: right;
+}
+
+a:link, a:hover {
+    text-decoration: none;
+}
+
+.downloads a {
+    color: #e12280;
+}
+
+.downloads a:hover {
+    text-decoration: underline;
+}
+
+#tip {
+    font-size: 80%;
+    font-style: italic;
+    color: crimson;
+    letter-spacing: 1px;
+}
+
+.downloads p {
+    font-size: 90%;
+}
+
+.fileDesc {
+    text-align: right;
+}
+
+.downloads .col-lg-3 {
+    text-align: center;
+}
+
+#innerContainer .col-lg-1 p {
+    font-size: 250%;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+#innerContainer .col-lg-11 p {
+    padding-top: 15px;
+}
+
+
+
+/* ------------------------------ */
+/*			   LISTS			  */
+/* ------------------------------ */
+
+.liItem {
+    font-weight: bold;
+}
+
+
+
+/* ------------------------------ */
+/*			   MEDIA			  */
+/* ------------------------------ */
+
+header img {
+    width: 17%;
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+}
+
+.videoItems {
+    margin-top: 20px;
+}
+
+video {
+    width: 100% !important;
+}
+
+
+
+/* ------------------------------ */
+/*			  BUTTONS			  */
+/* ------------------------------ */
+
+.button {
+    padding: 10px 20px;
+    color: #616060;
+    margin: 0 10px;
+    font-size: 120%;
+}
+
+.button.active {
+    background-color: #d3fbeb;
+    color: #066f24;
+}
+
+.button:hover {
+    color: #066f24;
+    border-bottom: 2px solid #066f24;
+}
